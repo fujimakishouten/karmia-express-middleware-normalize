@@ -1,6 +1,6 @@
 {
     "name": "karmia-express-middleware-normalize",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Normalize request middleware for Express",
     "homepage": "https://github.com/fujimakishouten/karmia-express-middleware-normalize",
     "license": "MIT",
