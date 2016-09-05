@@ -1,0 +1,31 @@
+{
+    "name": "karmia-express-middleware-normalize",
+    "version": "0.1.1",
+    "description": "Normalize request middleware for Express",
+    "homepage": "https://github.com/fujimakishouten/karmia-express-middleware-normalize",
+    "license": "MIT",
+    "author": "Kazuma Fujimaki <fujimaki-k@fujimakishouten.com>",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fujimakishouten/karmia-express-middleware-normalize"
+    },
+    "scripts": {
+        "test": "./node_modules/.bin/mocha ./test"
+    },
+    "dependencies": {
+        "lodash": ">=4.15.0",
+        "karmia-utility-string": ">=0.2.0"
+    },
+    "devDependencies": {
+        "body-parser": ">=1.15.2",
+        "eslint": ">=3.4.0",
+        "expect.js": ">=0.3.1",
+        "express": ">=4.14.0",
+        "karmia-context": ">=0.5.4",
+        "mocha": ">=2.4.5"
+    },
+    "engines": {
+        "node": ">=6.0.0"
+    }
+}
