@@ -1,6 +1,6 @@
 {
     "name": "karmia-express-middleware-normalize",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "Normalize request middleware for Express",
     "homepage": "https://github.com/fujimakishouten/karmia-express-middleware-normalize",
     "license": "MIT",
@@ -14,8 +14,7 @@
         "test": "./node_modules/.bin/mocha ./test"
     },
     "dependencies": {
-        "lodash": ">=4.15.0",
-        "karmia-utility-string": ">=0.3.0"
+        "karmia-utility-string": ">=0.5.2"
     },
     "devDependencies": {
         "body-parser": ">=1.15.2",
