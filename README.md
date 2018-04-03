@@ -12,7 +12,7 @@ npm install karmia-express-middleware-normalize
 
 ```JavaScript
 const karmia_express_middleware_normalize = require('karmia-express-middleware-normalize'),
-    normalize = karmia_express_middleware_normalize();
+    normalize = new karmia_express_middleware_normalize();
 
 const body_parser = require('body-parser'),
     express = require('express'),

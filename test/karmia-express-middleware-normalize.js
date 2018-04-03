@@ -8,7 +8,7 @@
 // Variables
 const expect = require('expect.js'),
     karmia_express_middleware_normalize = require('../'),
-    normalize = karmia_express_middleware_normalize();
+    normalize = new karmia_express_middleware_normalize();
 
 
 describe('karmia-express-middleware-normalize', function () {
